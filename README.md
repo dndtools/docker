@@ -46,3 +46,8 @@ docker run --rm -p 8000:8000 -it \
   -e RECAPTCHA_PRIVATE="something complex" \
   dndtools/dndtools:1.0.0
 ```
+
+## Troubleshooting
+**Error**: "Caught OperationalError while rendering: Could not decode to UTF-8 column 'name' with text ..."
+
+**Solution**: https://github.com/dndtools/docker/issues/1#issuecomment-68193678
